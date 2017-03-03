@@ -1,7 +1,7 @@
 {
-  "name": "pre-commit",
-  "version": "1.2.2",
-  "description": "Automatically install pre-commit hooks for your npm modules.",
+  "name": "pre-push",
+  "version": "1.0.0",
+  "description": "Automatically install pre-push hooks for your npm modules.",
   "main": "index.js",
   "scripts": {
     "coverage": "istanbul cover ./node_modules/.bin/_mocha -- test.js",
@@ -14,20 +14,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/observing/pre-commit.git"
+    "url": "git://github.com/stefanodotit/pre-push.git"
   },
   "keywords": [
     "git",
     "hooks",
     "npm",
-    "pre-commit",
-    "precommit",
+    "pre-push",
+    "prepush",
     "run",
     "test",
     "development"
   ],
-  "author": "Arnout Kazemier <opensource@observe.it>",
-  "homepage": "https://github.com/observing/pre-commit",
+  "author": "Stefano Tagliabue (stefanodotit@gmail.com) forked by Arnout Kazemier <opensource@observe.it> (pre-push)",
+  "homepage": "https://github.com/stefanodotit/pre-push.git",
   "license": "MIT",
   "dependencies": {
     "cross-spawn": "^5.0.1",
@@ -38,6 +38,6 @@
     "assume": "1.4.x",
     "istanbul": "0.4.x",
     "mocha": "~3.2.0",
-    "pre-commit": "git://github.com/observing/pre-commit.git"
+    "pre-push": "git://github.com/stefanodotit/pre-push.git"
   }
 }
